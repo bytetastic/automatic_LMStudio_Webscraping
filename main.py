@@ -11,7 +11,7 @@ from notion_client import Client
 # -----------------------------
 # Konfiguration
 # -----------------------------
-LM_MODEL_ID = "qwen/qwen3-vl-4b" # Nutze dieses LLM oder eins nach deinem Wunsch
+LM_MODEL_ID = "qwen/qwen3-vl-4b" # LM Model
 
 # Für den Anfang hardcodiert
 NOTION_TOKEN = "Dein_Notion_Token"
