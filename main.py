@@ -13,7 +13,7 @@ from notion_client import Client
 # -----------------------------
 LM_MODEL_ID = "qwen/qwen3-vl-4b" # Nutze dieses LLM oder eins nach deinem Wunsch
 
-# Für den Anfang hardcodiert (später besser via .env)
+# Für den Anfang hardcodiert
 NOTION_TOKEN = "Dein_Notion_Token"
 NOTION_PAGE_ID = "Deine_Notion_Page_ID"  # Page "Scraping" ID
 
@@ -26,7 +26,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; NotionSummarizer/1.0)"
 }
 
-# LLM-Kontext ist bei dir n_ctx=4096 => wir müssen chunking machen
+# wir müssen chunking machen bei kleinem LLM mit 4096 Token
 CHUNK_SIZE = 2800       # Zeichen pro Chunk (safe für 4k ctx)
 CHUNK_OVERLAP = 200     # Überlappung, damit Sätze nicht hart abbrechen
 
