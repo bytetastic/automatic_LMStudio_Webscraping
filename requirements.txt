@@ -26,7 +26,6 @@ notion-client==3.0.0
 numba==0.61.2
 numpy==2.2.6
 openai-whisper==20250625
-packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049099114/work
 readability-lxml==0.8.4.1
 regex==2025.9.1
 requests==2.32.5
